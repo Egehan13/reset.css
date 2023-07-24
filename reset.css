@@ -1,0 +1,128 @@
+/* reset.css */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Diğer reset stil kuralları buraya eklenir */
+
+/* grid.css */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+}
+
+/* Örnek kullanım:
+<div class="container">
+  <div class="row">
+    <div class="col">İçerik 1</div>
+    <div class="col">İçerik 2</div>
+  </div>
+</div>
+*/
+
+
+/* buttons.css */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+.button.secondary {
+  background-color: #95a5a6;
+}
+
+/* Örnek kullanım:
+<a href="#" class="button">Ana Buton</a>
+<a href="#" class="button secondary">İkincil Buton</a>
+*/
+
+
+/* forms.css */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* Örnek kullanım:
+<input type="text" placeholder="Adınız">
+<textarea placeholder="Mesajınız"></textarea>
+<select>
+  <option value="1">Seçenek 1</option>
+  <option value="2">Seçenek 2</option>
+</select>
+*/
+
+/* navbar.css */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Örnek kullanım:
+<nav class="navbar">
+  <ul>
+    <li><a href="#">Anasayfa</a></li>
+    <li><a href="#">Hakkımızda</a></li>
+    <li><a href="#">Hizmetler</a></li>
+    <li><a href="#">İletişim</a></li>
+  </ul>
+</nav>
+*/
